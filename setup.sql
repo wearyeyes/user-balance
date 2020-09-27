@@ -1,4 +1,4 @@
 create table users (
    id       serial primary key,
-   balance  integer
+   balance  numeric(15, 2)
 );
